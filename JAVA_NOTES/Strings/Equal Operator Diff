@@ -1,0 +1,15 @@
+Many Interviewers ask question
+
+What is Diff between == Operator and equals() Operator ?
+
+In Simple Words == Operator is used for reference comparison or address comparisons.
+both var should point same address in heap memory.
+
+.equals() is used for content comparison means it is used to check object value.
+
+If interviewer ask question what is task of equals method of Object class ?
+so it is used for address comparison or reference comparison.
+
+and if he ask what is task of equals method of string class ?
+so it is used for content comparison.
+

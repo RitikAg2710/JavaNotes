@@ -1,0 +1,4 @@
+Why String Class is Final ?
+String Class has got some Special features which is not available to other java classes and making string class final 
+prevents subclasses that could break their Assumptions.
+

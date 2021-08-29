@@ -1,0 +1,19 @@
+String Immutable means unchangeable.
+
+If we change the value of object in heap area.
+
+example :
+
+String s = new String("Ritik");
+s.concat(" Java")
+
+1.This will not change the name Ritik Java instead of that it will create one more object in heap memory
+of Ritik Java.
+2.one object in the SCP named as Java.
+
+Now one question Still remains why Strings are immutable ?
+If we create a literal value in SCP as "Thane" by ref var City="Thane" if multiple persons point City Thane it will not create
+multiple Object in SCP it will check if same name is present it will not create another one so if multiple persons point City="Thane"
+and if among them one have to change His City name as "Kalyan" so it will affect several persons too so thats why Strings are Immutable.
+
+

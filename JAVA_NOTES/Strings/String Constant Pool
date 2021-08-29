@@ -1,0 +1,23 @@
+a. String Constant pool is an area in heap memory where java stores String literal values.
+
+
+b. Interview Question
+
+Difference Between String Method.
+
+1. String s = new String("Ritik");
+
+In this method String Create Two Objects.
+One in the heap area and one in the String Constant pool.
+String Constant pool is a memory area which is present in the heap area.
+In this case we create two objects due to which our project become heavier and slow .
+
+2. string s = "Rahul";
+
+In this method String Create One Objects.
+which is present in the String Constant pool.
+In SCP case the garbage collection doesn't work because the object in the SCP is pointed by JVM Internally.
+so many people use this method instead of the upper one.
+
+
+

@@ -1,0 +1,19 @@
+1. String is a non primitive data type because size is not fixed.
+
+2. String is a sequence of characters(Array of characters)
+
+3. String is a class.
+Syntax :
+public final class String entends Object{
+
+}
+
+4. we can call string in Four ways
+a) String
+String s = "Learn";
+b) String
+String s = new String();
+c) StringBuffer
+d) StringBuilder
+
+5. String is a immutable object.
