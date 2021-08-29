@@ -30,7 +30,7 @@ Important question which can be ask by Interviewers
 Why char array is preferred over String for Storing Passwords ?
     1. String objects are immutable and it will create two objects one in String Constant pool and one in heap memory , scp is not applicable for garbage Collection
        so it will not be deleted by garbage collection which may occur as security threat.
-    2. second point if we use char array it will not display the his inside value but string object will display the value of the object.
+    2. second point If we use a char array, his inside value will not be displayed, but if we use a string object, his value will be displayed.
         Example:
                     char[] a = new char[] {'a','b','c','d'};
 
